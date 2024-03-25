@@ -1,0 +1,18 @@
+body {
+  background-color: #f5f2e5;
+  background-image: url(images/bg.png);
+  /* 横に繰り返し */
+  background-repeat: repeat-x;
+  /* 縦に繰り返し */
+  background-repeat: repeat-y;
+}
+div {
+  background-image: url(images/bg-airplane.jpg);
+  /* 繰り返さない */
+  background-repeat: no-repeat;
+  /* 表示領域を埋める表示 */
+  background-size: cover;
+  /* 縦横比を保持して表示される */
+  /* background-size: contain; */
+  height: 100vh;
+}
