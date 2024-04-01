@@ -1,0 +1,11 @@
+p {
+  /* 太い実線 */
+  border-width: thick;
+  border-style: solid;
+}
+
+div {
+  /* 上・右・下・左 */
+  border-width: 1px 4px 8px 1px;
+  border-style: solid;
+}
