@@ -6,6 +6,9 @@ p {
 
 div {
   /* 上・右・下・左 */
-  border-width: 1px 4px 8px 1px;
-  border-style: solid;
+  /* border-width: 1px 4px 8px 1px; */
+  /* border-style: solid; */
+  border-width: 4px;
+  /* 2本実践・点線・1本実線・立体的山型線 */
+  border-style: double dotted solid ridge;
 }
