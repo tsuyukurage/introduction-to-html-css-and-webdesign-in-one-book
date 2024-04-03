@@ -12,3 +12,22 @@ div {
   /* 2本実践・点線・1本実線・立体的山型線 */
   border-style: double dotted solid ridge;
 }
+
+p {
+  border-style: solid;
+  border-color: tomato;
+}
+
+div {
+  border-style: solid;
+  /* 上・右・下・左の色 */
+  border-color: tan #0bdd tomato #000;
+}
+
+p {
+  border-bottom: 2px solid #0bd;
+}
+
+div {
+  border: 5px dotted tomato;
+}
