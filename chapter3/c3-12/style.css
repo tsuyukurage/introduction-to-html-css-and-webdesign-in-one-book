@@ -1,0 +1,21 @@
+ul {
+  /* リストマーカーの種類 */
+  list-style-type: square;
+  /* リストマーカーの表示位置 */
+  list-style-position: outside;
+}
+
+ol {
+  list-style-type: hiragana;
+  list-style-position: inside;
+}
+
+ul {
+  /* リストマーカーに画像を使う */
+  list-style-image: url(images/star.png);
+}
+
+ul {
+  /* リストマーカー装飾をまとめて指定 */
+  list-style: square url(images/star.png) outside;
+}
