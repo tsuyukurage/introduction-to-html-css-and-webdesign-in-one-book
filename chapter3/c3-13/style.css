@@ -7,3 +7,7 @@ p {
 #orange {
   color: #fa2;
 }
+/* pタグのblue2クラスのみ指定 */
+p.blue2 {
+  color: #0bd;
+}
