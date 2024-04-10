@@ -11,3 +11,11 @@ p {
 p.blue2 {
   color: #0bd;
 }
+
+#green {
+  color: green;
+}
+.red {
+  color: red;
+}
+/* idの指定した装飾が優先される */
