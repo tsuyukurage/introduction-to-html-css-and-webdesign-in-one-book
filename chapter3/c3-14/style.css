@@ -7,4 +7,6 @@
 
 .container {
   display: flex;
+  /* 右から左 */
+  flex-direction: row-reverse;
 }
