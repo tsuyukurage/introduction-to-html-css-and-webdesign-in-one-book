@@ -13,7 +13,14 @@
   flex-wrap: wrap;
   /* 水平方向の揃え */
   justify-content: flex-end;
+
   /* 垂直方向の揃え */
-  align-items: center;
-  height: 100vh;
+  /* align-items: center;
+  height: 100vh; */
+
+  /* 複数行にしたときの揃え */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 300px;
 }
