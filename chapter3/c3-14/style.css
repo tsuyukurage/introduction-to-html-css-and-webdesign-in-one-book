@@ -8,19 +8,26 @@
 .container {
   display: flex;
   /* 右から左 */
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   /* 子要素の折り返し */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* 水平方向の揃え */
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 
   /* 垂直方向の揃え */
   /* align-items: center;
   height: 100vh; */
 
   /* 複数行にしたときの揃え */
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-  height: 300px;
+  height: 300px; */
+
+  /* グリッドでタイル型に並べる */
+  display: grid;
+  /* グリッドアイテムの横幅 */
+  grid-template-columns: 200px 200px 200px;
+  /* グリッドアイテム同士の余白 */
+  gap: 10px;
 }
