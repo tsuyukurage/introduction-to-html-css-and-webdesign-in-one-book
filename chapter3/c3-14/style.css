@@ -27,7 +27,8 @@
   /* グリッドでタイル型に並べる */
   display: grid;
   /* グリッドアイテムの横幅 */
-  grid-template-columns: 200px 200px 200px;
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-columns: 1fr 1fr 1fr; /* 画面幅に合わせて伸縮 */
   /* グリッドアイテム同士の余白 */
   gap: 10px;
 }
