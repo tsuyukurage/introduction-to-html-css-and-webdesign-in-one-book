@@ -31,4 +31,6 @@
   grid-template-columns: 1fr 1fr 1fr; /* 画面幅に合わせて伸縮 */
   /* グリッドアイテム同士の余白 */
   gap: 10px;
+  /* グリッドアイテムの高さ */
+  grid-template-rows: 200px 200px;
 }
