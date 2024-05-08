@@ -8,6 +8,12 @@ body {
   line-height: 1.7;
   color: #432;
 }
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 a {
   /* 傍線の指定 */
   text-decoration: none;
