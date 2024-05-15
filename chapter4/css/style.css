@@ -90,3 +90,11 @@ img {
 .button:hover {
   background: #0090aa;
 }
+
+#home {
+  background-image: url(../images/main-bg.jpg);
+  min-height: 100vh;
+}
+#home .page-title {
+  text-transform: none;
+}
