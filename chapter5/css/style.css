@@ -91,13 +91,12 @@ img {
   background: #0090aa;
 }
 
-#home {
+#news {
   /* 画像とグラデーションの組み合わせ */
   background-image: url(../images/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
-  background-blend-mode: luminosity;
-  background-color: #0bd;
-  min-height: 100vh;
+  height: 270px;
+  margin-bottom: 40px;
 }
-#home .page-title {
-  text-transform: none;
+#news .page-title {
+  text-align: center;
 }
