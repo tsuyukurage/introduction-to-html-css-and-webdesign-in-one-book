@@ -122,3 +122,9 @@ article {
 aside {
   width: 22%;
 }
+
+.news-contents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
